@@ -24,4 +24,6 @@ n = [math.sqrt(1 + (b[0]*(wavelength**2))/((wavelength**2)-c[0]) + (b[1]*(wavele
 
 fig, ax = plt.subplots()
 ax.plot(wavelengths, n)
+plt.xlabel("wavelength (nm)")
+plt.ylabel("refractice index")
 plt.show()
